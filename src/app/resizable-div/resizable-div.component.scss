@@ -1,0 +1,51 @@
+:host {
+  position: relative;
+  display: block;
+}
+
+.box {
+  position: absolute;
+  background: #222;
+  border: 1px solid #209BFC;
+}
+
+.anchor-top-left,
+.anchor-top-right,
+.anchor-bottom-right,
+.anchor-bottom-left {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #209BFC;
+  background: #fff;
+}
+
+.anchor-top-right,
+.anchor-bottom-left {
+  cursor: nesw-resize;
+}
+
+.anchor-top-left,
+.anchor-bottom-right {
+  cursor: nwse-resize;
+}
+
+.anchor-top-left {
+  top: -5px;
+  left: -5px;
+}
+
+.anchor-top-right {
+  top: -5px;
+  right: -5px;
+}
+
+.anchor-bottom-left {
+  bottom: -5px;
+  left: -5px;
+}
+
+.anchor-bottom-right {
+  bottom: -5px;
+  right: -5px;
+}
